@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+#caja{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#cajados{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#galeria{
+    margin: 20;
+    padding: 20;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+#videos{
+    text-align: center;
+    justify-content: center;
+}
+#videos a{
+    font-size: 30px;
+}
+.twitter facebook{
+    color: blue;
+}
+.tiktok{
+    color: black;
+}
+.instagram{
+    color: orange;
+}
+#videos a:hover{
+    color: brown;
+}
+#galeria{
+    text-align: center;
+    justify-content: center;
+}
+#galeria a:hover{
+    color: brown;
+}
+#blog a:hover{
+    color: brown;
+}
+#blog{
+    text-align: center;
+    justify-content: center;
+}
+#taza{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+#frente{
+    width: 1000px;
+    height: 500px;
+}
